@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+      background: linear-gradient(-180deg,#f53d2d,#f63);
+      color: white
+}
+
+.row1 , ul{
+  display: flex;
+  flex-direction: row;
+  }
+
+ ul{
+   width: 40%;
+   justify-content: space-between;
+ }
+
+ ul li{
+   list-style: none;
+    }
+
+.row1{
+  justify-content: space-between;
+}
